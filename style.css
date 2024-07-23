@@ -1,0 +1,169 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    max-width: 1500px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+/* navbar */
+nav .disabled{
+    background-color: orange;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* padding: 30px 40px; */
+
+}
+/* 2 home */
+#home{
+    padding: 40px 60px;
+}
+#home .card{
+    padding: 100px 80px;
+    
+    background-color: #049588;
+
+}
+/* programmes */
+#programme{
+    padding: 30px 10px;
+}
+#programme h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+#programme .box-1{
+    background-color: #049588;
+    color: #fff;
+    border-radius: 20px;
+}
+.user-class{
+  
+    padding: 20px 30px;
+    padding-right: 40px;
+    text-align: center;
+   
+    font-weight: 700;
+}
+.box-1 h4{
+    font-size: 20px;
+}
+
+#programme .img{
+    width: 40px;
+}
+.box-2{
+    border: 1px solid #049588;
+    border-radius: 20px;
+}
+/* Campus */
+#campus .img-2{
+    width: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#campus .card{
+    border-radius: 20px;
+    border: 1px solid;
+}
+#campus .border-color-1{
+    border-color: #F44336;
+}
+#campus .border-color-1 h5{
+    color: #F44336;
+}
+#campus .border-color-2{
+    border-color: #049588;
+}
+#campus .border-color-2 h5{
+    color: #049588;
+}
+#campus .border-color-4{
+    border-color: #049588;
+
+}
+#campus .border-color-4 h5{
+    color: #049588;
+}
+
+#campus .border-color-3{
+    border-color: #FFA31C;
+}
+#campus .border-color-3 h5{
+    color: #FFA31C;
+}
+#campus h5{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* admission */
+#admission {
+    background-color: #F44336;
+
+}
+ .bg-img{
+    background: url(images/Vector.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+ }
+ .coachs .card{
+    border: 2px solid #049588;
+ }
+ .gray-pointier{
+    width: 20px;
+    height: 20px;
+    background-color:  #C4C4C4 ;
+    border-radius: 50%;
+ }
+ /* evenements */
+ .bg-evens{
+    background: url(images/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+ }
+ .bg-evens .col{
+    margin-top: 20rem;
+ }
+ .bg-evenement{
+    background-color: #F44336;
+ }
+ .img-size{
+     height: 160px;
+    object-fit: cover;
+    display: block;
+ }
+ .font{
+    font-size: 12px;
+ }
+ /* blog */
+ #blog .row{
+    background-color: #EEF9F8;
+ }
+ #blog .card{
+height: 150px
+ }
+ #blog a{
+    background-color: #F44336;
+    width: 100px;
+    border-radius: none;
+ }
+ /* footer */
+ footer{
+    background-color: #049588;
+    
+ }
+ footer .row{
+    padding-bottom: 10rem;
+ }
+ footer p{
+    font-size: 12px;
+ }
