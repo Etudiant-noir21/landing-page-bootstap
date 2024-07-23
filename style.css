@@ -152,9 +152,8 @@ nav .disabled{
 height: 150px
  }
  #blog a{
-    background-color: #F44336;
     width: 100px;
-    border-radius: none;
+   
  }
  /* footer */
  footer{
@@ -166,4 +165,10 @@ height: 150px
  }
  footer p{
     font-size: 12px;
+ }
+ @media screen and (max-width:768px){
+    #home .card{
+      margin: 0;
+      padding: 10px;
+    }
  }
